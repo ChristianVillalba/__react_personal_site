@@ -8,9 +8,11 @@ function Skills() {
       <div class="d-flex flex-column flex-md-row justify-content-between mb-4">
         <div class="flex-grow-1">
           <h3 class="mb-0">TECHNICAL SKILLS</h3>
-          <div class="tech-skill"><i class="fab fa-python"></i> Django</div>
+          <div class="tech-skill"><i class="fab fa-react"></i> React</div>
           <div class="tech-skill"><i class="fab fa-python"></i> Python</div>
-          <div class="tech-skill"><i class="fab fab fa-js-square"></i> JavaScript & jQuery</div>
+          <div class="tech-skill"><i class="fab fa-python"></i> Django</div>
+          <div class="tech-skill"><i class="fab fab fa-js-square"></i> JavaScript</div>
+          <div class="tech-skill"><i class="fab fab fa-js-square"></i> ES6 & jQuery</div>
           <div class="tech-skill"><i class="fab fa-bootstrap"></i> Bootstrap</div>
           <div class="tech-skill"><i class="fab fa-css3-alt"></i> CSS</div>
           <div class="tech-skill"><i class="fab fa-html5"></i> HTML</div>

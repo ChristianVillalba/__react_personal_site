@@ -3,9 +3,11 @@ import { BrowserRouter as Router, Switch, Route, Link, Redirect, Routes } from '
 
 import Navbar from './components/Navbar';
 import About from './components/Pages/About';
+import Skills from './components/Pages/Skills';
+import Portfolio from './components/Pages/Portfolio';
 import Certifications from "./components/Pages/Certifications";
 import Interests from "./components/Pages/Interests";
-import Skills from './components/Pages/Skills';
+
 
 class App extends Component {
   render() {
@@ -16,8 +18,9 @@ class App extends Component {
         <Routes >
         <Route path="/about" element={<About />}></Route>
         <Route path="/skills" element={<Skills />}></Route>
-        <Route path="/interests" element={<Interests />}></Route>  
+        <Route path="/portfolio" element={<Portfolio />}></Route>
         <Route path="/certifications" element={<Certifications />}></Route>
+        <Route path="/interests" element={<Interests />}></Route>  
       </Routes>
         </div>
       </Router>

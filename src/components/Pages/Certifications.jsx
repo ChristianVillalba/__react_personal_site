@@ -32,6 +32,32 @@ function Certifications() {
             Complete Python Bootcamp From Zero to Hero in Python
           </a>
         </li>
+
+
+        <li>
+          <a href="https://www.udemy.com/certificate/UC-31ffd260-d337-40d9-b58e-a82ff6dada95/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email" target="_blank">
+            <span class="fa-li"><i class="fas fa-award text-warning"></i></span>
+            Bootstrap 5 Course: Build Responsive Websites 
+          </a>
+        </li>
+        <li>
+          <a href="https://www.udemy.com/certificate/UC-f8cb5014-1f28-4f8a-a942-479cda877c4f/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email" target="_blank">
+            <span class="fa-li"><i class="fas fa-award text-warning"></i></span>
+            HTML5 & CSS3 Complete Course: Build Websites 
+          </a>
+        </li>
+        <li>
+          <a href="https://www.udemy.com/certificate/UC-7248e9db-045b-42d2-b3c6-d08e79df61bf/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email" target="_blank">
+            <span class="fa-li"><i class="fas fa-award text-warning"></i></span>
+            Complete Git and Github Beginner to Expert
+          </a>
+        </li>
+        <li>
+          <a href="https://www.udemy.com/certificate/UC-aff237a2-f841-4c5a-9d05-74b834310815/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email" target="_blank">
+            <span class="fa-li"><i class="fas fa-award text-warning"></i></span>
+            Cyber Security for Beginners Complete Course
+          </a>
+        </li>
       </ul>
     </div>
   </section>
