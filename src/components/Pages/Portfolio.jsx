@@ -22,7 +22,7 @@ function Portfolio() {
               </a>
               <div class="portfolio-caption">
                 <div class="portfolio-caption-heading">Social Media Site</div>
-                <div class="portfolio-caption-subheading text-muted"><b>Django</b></div>
+                <div class="portfolio-caption-subheading text-muted"><b>Django & Bootstrap</b></div>
               </div>
             </div>
           </div>
@@ -64,7 +64,7 @@ function Portfolio() {
               </a>
               <div class="portfolio-caption">
                 <div class="portfolio-caption-heading">This Site</div>
-                <div class="portfolio-caption-subheading text-muted"><b>Bootstrap</b></div>
+                <div class="portfolio-caption-subheading text-muted"><b>React & Bootstrap</b></div>
               </div>
             </div>
           </div>
@@ -227,15 +227,16 @@ function Portfolio() {
                 <div class="modal-body">
                   {/* <!-- Project Details Go Here--> */}
                   <h2 class="text-uppercase">About This Website</h2>
-                  <p class="item-intro text-muted"><b>Bootstrap</b></p>
+                  <p class="item-intro text-muted"><b>React & Bootstrap</b></p>
                   <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/04-full.jpg" alt="" />
                   <ul class="list-inline">
                     <li>· Objective: Create my personal site <br />
                       so I can include my portfolio and my finished projects</li>
-                    <li>· Main technologies: Bootstrap & CSS</li>
-                    <li>· Other Technologies: HTML & JavaScript</li>
+                    <li>· Main technologies: React & Bootstrap</li>
+                    <li>· Other Technologies: HTML, CSS & JavaScript</li>
                   </ul>
                   <p> · Description: <br />
+                    Upgraded version using React <br />
                     This project combines two different templates <br />
                     from startbootstrap.com: "agency" & "resume". <br />
                     I worked directly with the Bootstrap Repository  <br />
@@ -246,7 +247,7 @@ function Portfolio() {
                     <i class="fas fa-times mr-1"></i>
                     Close Description
                   </button>
-                  <a class="btn btn-dark mb-1" href="https://github.com/ChristianVillalba/personal-site.git" target="_blank">
+                  <a class="btn btn-dark mb-1" href="https://github.com/ChristianVillalba/__react_personal_site" target="_blank">
                     <i class="fab fa-github mr-1"></i>
                     Code on GitHub
                   </a>
