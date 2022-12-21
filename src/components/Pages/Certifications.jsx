@@ -1,5 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
+import Heading from "../Common/Heading";
 
 
 function Certifications() {
@@ -36,41 +37,25 @@ function Certifications() {
 
         <li>
           <a href="https://www.udemy.com/certificate/UC-31ffd260-d337-40d9-b58e-a82ff6dada95/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email" target="_blank">
-<<<<<<< HEAD
             <span className="fa-li"><i className="fas fa-award text-warning"></i></span>
-=======
-            <span class="fa-li"><i class="fas fa-award text-warning"></i></span>
->>>>>>> 48c8988f16c7182a350cf962a4586a3c13fb5c2e
             Bootstrap 5 Course: Build Responsive Websites 
           </a>
         </li>
         <li>
           <a href="https://www.udemy.com/certificate/UC-f8cb5014-1f28-4f8a-a942-479cda877c4f/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email" target="_blank">
-<<<<<<< HEAD
             <span className="fa-li"><i className="fas fa-award text-warning"></i></span>
-=======
-            <span class="fa-li"><i class="fas fa-award text-warning"></i></span>
->>>>>>> 48c8988f16c7182a350cf962a4586a3c13fb5c2e
             HTML5 & CSS3 Complete Course: Build Websites 
           </a>
         </li>
         <li>
           <a href="https://www.udemy.com/certificate/UC-7248e9db-045b-42d2-b3c6-d08e79df61bf/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email" target="_blank">
-<<<<<<< HEAD
             <span className="fa-li"><i className="fas fa-award text-warning"></i></span>
-=======
-            <span class="fa-li"><i class="fas fa-award text-warning"></i></span>
->>>>>>> 48c8988f16c7182a350cf962a4586a3c13fb5c2e
             Complete Git and Github Beginner to Expert
           </a>
         </li>
         <li>
           <a href="https://www.udemy.com/certificate/UC-aff237a2-f841-4c5a-9d05-74b834310815/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email" target="_blank">
-<<<<<<< HEAD
             <span className="fa-li"><i className="fas fa-award text-warning"></i></span>
-=======
-            <span class="fa-li"><i class="fas fa-award text-warning"></i></span>
->>>>>>> 48c8988f16c7182a350cf962a4586a3c13fb5c2e
             Cyber Security for Beginners Complete Course
           </a>
         </li>
