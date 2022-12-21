@@ -9,7 +9,7 @@ function About() {
                         <span className="text-primary"> Villalba</span>
                     </h1>
                     <div className="subheading mb-5">
-          Reading , Berkshire · United Kingdom · 07491 XXXXXX · < br/>
+          Cardiff , Wales · United Kingdom · 07491 XXXXXX · < br/>
           <a href="mailto:christianvillalba.uk@gmail.com">christianvillalba.uk@gmail.com</a>
                     </div>
                     <p className="lead mb-5">Software Developer passionate about learning
