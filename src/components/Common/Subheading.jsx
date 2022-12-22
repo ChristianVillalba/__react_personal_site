@@ -1,8 +1,8 @@
 import React from "react";
 
-function Subheading() {
+function Subheading(props) {
   return (
-    <h3 className="mb-0">{this.props.subtitle}</h3>
+    <h3 className="mb-0">{props.subtitle}</h3>
   );
 }
 

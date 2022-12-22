@@ -1,13 +1,15 @@
 import React from "react";
+import Heading from "../Common/Heading";
+import Subheading from "../Common/Subheading";
 
 function Skills() {
   return (
     <section className="resume-section" id="skills">
     <div className="resume-section-content">
-      <h2 className="mb-4">Skills</h2>
+      <Heading title="Skills" />
       <div className="d-flex flex-column flex-md-row justify-content-between mb-4">
         <div className="flex-grow-1">
-          <h3 className="mb-0">TECHNICAL SKILLS</h3>
+          <Subheading subtitle="TECHNICAL SKILLS" />
           <div className="tech-skill"><i className="fab fa-react"></i> React</div>
           <div className="tech-skill"><i className="fab fa-python"></i> Python</div>
           <div className="tech-skill"><i className="fab fa-python"></i> Django</div>

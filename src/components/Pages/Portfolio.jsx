@@ -1,4 +1,5 @@
 import React from "react";
+import Heading from "../Common/Heading";
 
 function Portfolio() {
   return (
@@ -9,7 +10,7 @@ function Portfolio() {
     <section class="resume-section" id="portfolio">
       <div class="resume-section-content">
         <div class="container">
-          <h2 class="mb-4">Portfolio</h2>
+        <Heading title="Portfolio" />
           {/* <!-- <h3 class="section-subheading text-muted">These are some projects, more available on my GitHub Page.</h3> --> */}
         <div class="row">
           <div class="col-lg-6 col-sm-6 mb-4">

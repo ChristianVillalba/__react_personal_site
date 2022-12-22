@@ -2,12 +2,11 @@ import React from "react";
 import {Link} from "react-router-dom";
 import Heading from "../Common/Heading";
 
-
 function Certifications() {
   return (
     <section className="resume-section" id="certifications">
     <div className="resume-section-content">
-      <h2 className="mb-4">Certifications</h2>
+      <Heading title="Certifications" />
       <ul className="fa-ul mb-0">
         <li>
           <a href="https://www.udemy.com/certificate/UC-7a79f48f-b490-46b0-bc23-94d2e7c3e111/" target="_blank">

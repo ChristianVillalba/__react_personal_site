@@ -1,10 +1,11 @@
 import React from "react";
+import Heading from "../Common/Heading";
 
 function Interests() {
   return (
     <section className="resume-section" id="interests">
       <div className="resume-section-content">
-        <h2 className="mb-4">Interests</h2>
+        <Heading title="Interests" />
         <p>My main goal is to become a Full-Stack Developer.</p>
         <p className="mb-4">I enjoy using front-end technologies thinking of making the site appealing <br />
             and back-end components to make dynamic web applications that users can interact with.</p>
