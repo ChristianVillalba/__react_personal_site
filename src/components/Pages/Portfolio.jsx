@@ -1,5 +1,7 @@
 import React from "react";
 import Heading from "../Common/Heading";
+import PortfolioItem from "../Common/PortfolioItem";
+import PortfolioModal from "../Common/PortfolioModal";
 
 function Portfolio() {
   return (
