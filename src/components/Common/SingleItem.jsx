@@ -2,7 +2,7 @@ import React from "react";
 
 function SingleItem(props) {
   return (
-    <div ></div>
+    <div className="personal-skill"><i className={props.icon}></i> {props.listItem}</div>
   );
 }
 

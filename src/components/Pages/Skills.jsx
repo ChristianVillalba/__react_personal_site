@@ -16,7 +16,12 @@ const technicalItems = [
   {icon: "fab fa-github", name:"GitHub & Version Control"},
 ]
 
-const commonItems = []
+const commonItems = [
+  {icon: "far fa-check-circle", listItem:"Enjoy collaborative problem solving activities."},
+  {icon: "far fa-check-circle", listItem:"Love of interactive, customer-centric development."},
+  {icon: "far fa-check-circle", listItem:"Comfortable operating in a rapidly changing environment."},
+  {icon: "far fa-check-circle", listItem:"Passionate about new technologies."},
+]
 
 function Skills() {
   return (
@@ -36,11 +41,11 @@ function Skills() {
       <div className="d-flex flex-column flex-md-row justify-content-between mb-4">
         <div className="flex-grow-1">
         <Subheading subtitle="PERSONAL SKILLS" />
-          <div className="personal-skill"><i className="far fa-check-circle"></i> Enjoy collaborative problem solving activities.</div>
-          <div className="personal-skill"><i className="far fa-check-circle"></i> Love of interactive, customer-centric development.</div>
-          <div className="personal-skill"><i className="far fa-check-circle"></i> Comfortable operating in a rapidly changing environment.</div>
-          <div className="personal-skill"><i className="far fa-check-circle"></i> Passionate about new technologies.</div>
-          {/* <div className="personal-skill"><i className="far fa-check-circle"></i> Interest in Responsive Design, Mobile-First. </div>  */}
+
+        {commonItems.map(( commonItem, index) => {
+          return <SingleItem {...commonItem} key={index} />
+        })}
+
 
         </div>
       </div>
