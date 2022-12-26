@@ -28,25 +28,24 @@ function Skills() {
     <section className="resume-section" id="skills">
     <div className="resume-section-content">
       <Heading title="Skills" />
+
       <div className="d-flex flex-column flex-md-row justify-content-between mb-4">
         <div className="flex-grow-1">
           <Subheading subtitle="TECHNICAL SKILLS" />
-
+          {/* Map function: renders TECHNICAL SKILLS */}
           {technicalItems.map(( technicalItem, index) => {
             return <SingleTechnicalItem {...technicalItem} key={index}/>
           } )}
-
         </div>
       </div>
+
       <div className="d-flex flex-column flex-md-row justify-content-between mb-4">
         <div className="flex-grow-1">
         <Subheading subtitle="PERSONAL SKILLS" />
-
+        {/* Map function: renders PERSONAL SKILLS */}
         {commonItems.map(( commonItem, index) => {
           return <SingleItem {...commonItem} key={index} />
         })}
-
-
         </div>
       </div>
 

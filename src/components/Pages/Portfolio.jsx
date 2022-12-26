@@ -3,6 +3,13 @@ import Heading from "../Common/Heading";
 import PortfolioItem from "../Common/PortfolioItem";
 import PortfolioModal from "../Common/PortfolioModal";
 
+const portfolio = [
+  {img:"assets/img/portfolio/01-thumbnail.jpg" , title:"Social Media Site", subtitle:"Django & Bootstrap", openModal:"#portfolioModal1" },
+  {img:"assets/img/portfolio/02-thumbnail.jpg" , title:"Simon Game", subtitle:"jQuery", openModal:"#portfolioModal2" },
+  {img:"assets/img/portfolio/03-thumbnail.jpg" , title:"Drum Kit", subtitle:"JavaScript", openModal:"#portfolioModal3" },
+  {img:"assets/img/portfolio/04-thumbnail.jpg" , title:"This Site", subtitle:"React & Bootstrap", openModal:"#portfolioModal4" }
+]
+
 function Portfolio() {
   return (
     <div >
@@ -15,62 +22,10 @@ function Portfolio() {
         <Heading title="Portfolio" />
           {/* <!-- <h3 class="section-subheading text-muted">These are some projects, more available on my GitHub Page.</h3> --> */}
         <div class="row">
-          <div class="col-lg-6 col-sm-6 mb-4">
-            <div class="portfolio-item">
-              <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                <div class="portfolio-hover">
-                  <div class="portfolio-hover-content"><i class="fas fa-info-circle fa-3x"></i></div>
-                </div>
-                <img class="img-fluid" src="assets/img/portfolio/01-thumbnail.jpg" alt="" />
-              </a>
-              <div class="portfolio-caption">
-                <div class="portfolio-caption-heading">Social Media Site</div>
-                <div class="portfolio-caption-subheading text-muted"><b>Django & Bootstrap</b></div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 col-sm-6 mb-4">
-            <div class="portfolio-item">
-              <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-                <div class="portfolio-hover">
-                  <div class="portfolio-hover-content"><i class="fas fa-info-circle fa-3x"></i></div>
-                </div>
-                <img class="img-fluid" src="assets/img/portfolio/02-thumbnail.jpg" alt="" />
-              </a>
-              <div class="portfolio-caption">
-                <div class="portfolio-caption-heading">Simon Game</div>
-                <div class="portfolio-caption-subheading text-muted"><b>jQuery</b></div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 col-sm-6 mb-4">
-            <div class="portfolio-item">
-              <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-                <div class="portfolio-hover">
-                  <div class="portfolio-hover-content"><i class="fas fa-info-circle fa-3x"></i></div>
-                </div>
-                <img class="img-fluid" src="assets/img/portfolio/03-thumbnail.jpg" alt="" />
-              </a>
-              <div class="portfolio-caption">
-                <div class="portfolio-caption-heading">Drum Kit</div>
-                <div class="portfolio-caption-subheading text-muted"><b>JavaScript</b></div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 col-sm-6 mb-4 mb-lg-0">
-            <div class="portfolio-item">
-              <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-                <div class="portfolio-hover">
-                  <div class="portfolio-hover-content"><i class="fas fa-info-circle fa-3x"></i></div>
-                </div>
-                <img class="img-fluid" src="assets/img/portfolio/04-thumbnail.jpg" alt="" />
-              </a>
-              <div class="portfolio-caption">
-                <div class="portfolio-caption-heading">This Site</div>
-                <div class="portfolio-caption-subheading text-muted"><b>React & Bootstrap</b></div>
-              </div>
-            </div>
-          </div>
+        {/* Map function: renders Projects in Portfolio*/}
+        {portfolio.map((project, index ) => {
+          return <PortfolioItem {...project} key={index} />
+        })}
         </div>
       </div>
       </div>
