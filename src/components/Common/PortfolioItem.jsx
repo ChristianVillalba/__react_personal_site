@@ -8,7 +8,7 @@ function PortfolioItem(props) {
                 <div class="portfolio-hover">
                   <div class="portfolio-hover-content"><i class="fas fa-info-circle fa-3x"></i></div>
                 </div>
-                <img class="img-fluid" src={props.img} alt="" />
+                <img class="img-fluid" src={props.image} alt="" />
                 </a>
               <div class="portfolio-caption">
                 <div class="portfolio-caption-heading">{props.title}</div>

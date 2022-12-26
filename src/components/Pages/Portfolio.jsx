@@ -4,10 +4,10 @@ import PortfolioItem from "../Common/PortfolioItem";
 import PortfolioModal from "../Common/PortfolioModal";
 
 const portfolio = [
-  {img:"assets/img/portfolio/01-thumbnail.jpg" , title:"Social Media Site", subtitle:"Django & Bootstrap", openModal:"#portfolioModal1" },
-  {img:"assets/img/portfolio/02-thumbnail.jpg" , title:"Simon Game", subtitle:"jQuery", openModal:"#portfolioModal2" },
-  {img:"assets/img/portfolio/03-thumbnail.jpg" , title:"Drum Kit", subtitle:"JavaScript", openModal:"#portfolioModal3" },
-  {img:"assets/img/portfolio/04-thumbnail.jpg" , title:"This Site", subtitle:"React & Bootstrap", openModal:"#portfolioModal4" }
+  {image:"assets/img/portfolio/01-thumbnail.jpg" , title:"Social Media Site", subtitle:"Django & Bootstrap", openModal:"#portfolioModal1" },
+  {image:"assets/img/portfolio/02-thumbnail.jpg" , title:"Simon Game", subtitle:"jQuery", openModal:"#portfolioModal2" },
+  {image:"assets/img/portfolio/03-thumbnail.jpg" , title:"Drum Kit", subtitle:"JavaScript", openModal:"#portfolioModal3" },
+  {image:"assets/img/portfolio/04-thumbnail.jpg" , title:"This Site", subtitle:"React & Bootstrap", openModal:"#portfolioModal4" }
 ]
 
 function Portfolio() {

@@ -14,11 +14,11 @@ function Navbar() {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav">
 
-                    <li class="nav-item"><Link class="nav-link js-scroll-trigger" to="/about">About</Link></li>
-                    <li class="nav-item"><Link class="nav-link js-scroll-trigger" to="/skills">Skills</Link></li>
-                    <li class="nav-item"><Link class="nav-link js-scroll-trigger" to="/portfolio">Portfolio</Link></li>
-                    <li class="nav-item"><Link class="nav-link js-scroll-trigger" to="/certifications">Certifications</Link></li>
-                    <li class="nav-item"><Link class="nav-link js-scroll-trigger" to="/interests">Interests</Link></li>
+                    <li className="nav-item"><Link className="nav-link js-scroll-trigger" to="/about">About</Link></li>
+                    <li className="nav-item"><Link className="nav-link js-scroll-trigger" to="/skills">Skills</Link></li>
+                    <li className="nav-item"><Link className="nav-link js-scroll-trigger" to="/portfolio">Portfolio</Link></li>
+                    <li className="nav-item"><Link className="nav-link js-scroll-trigger" to="/certifications">Certifications</Link></li>
+                    <li className="nav-item"><Link className="nav-link js-scroll-trigger" to="/interests">Interests</Link></li>
                     
 
                 </ul>
