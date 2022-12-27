@@ -11,7 +11,9 @@ const portfolio = [
 ]
 
 const modals = [
-  {portfolioModalId:"" , modalTitle:"", modalSubtitle:"" , modalImage:"" , linkToProject:"" , linkToRepository:"", objective:"" , mainTechnology:"" , usedTechnologies:"", description:"" },
+  {portfolioModalId:"portfolioModal1" , modalTitle:"Social Media Site", modalSubtitle:"Django" , modalImage:"assets/img/portfolio/01-full.jpg" , 
+  linkToProject:"http://christianvillalba.pythonanywhere.com/" , linkToRepository:"https://github.com/ChristianVillalba/social_media", 
+  objective:"Create a functional social media site." , mainTechnology:"Django (Python)" , usedTechnologies:"HTML & CSS", description:"" },
   {portfolioModalId:"" , modalTitle:"", modalSubtitle:"" , modalImage:"" , linkToProject:"" , linkToRepository:"", objective:"" , mainTechnology:"" , usedTechnologies:"", description:"" },
   {portfolioModalId:"" , modalTitle:"", modalSubtitle:"" , modalImage:"" , linkToProject:"" , linkToRepository:"", objective:"" , mainTechnology:"" , usedTechnologies:"", description:"" },
   {portfolioModalId:"" , modalTitle:"", modalSubtitle:"" , modalImage:"" , linkToProject:"" , linkToRepository:"", objective:"" , mainTechnology:"" , usedTechnologies:"", description:"" }
