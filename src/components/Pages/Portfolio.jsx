@@ -10,6 +10,13 @@ const portfolio = [
   {image:"assets/img/portfolio/04-thumbnail.jpg" , title:"This Site", subtitle:"React & Bootstrap", openModal:"#portfolioModal4" }
 ]
 
+const modals = [
+  {portfolioModalId:"" , modalTitle:"", modalSubtitle:"" , modalImage:"" , linkToProject:"" , linkToRepository:"", objective:"" , mainTechnology:"" , usedTechnologies:"", description:"" },
+  {portfolioModalId:"" , modalTitle:"", modalSubtitle:"" , modalImage:"" , linkToProject:"" , linkToRepository:"", objective:"" , mainTechnology:"" , usedTechnologies:"", description:"" },
+  {portfolioModalId:"" , modalTitle:"", modalSubtitle:"" , modalImage:"" , linkToProject:"" , linkToRepository:"", objective:"" , mainTechnology:"" , usedTechnologies:"", description:"" },
+  {portfolioModalId:"" , modalTitle:"", modalSubtitle:"" , modalImage:"" , linkToProject:"" , linkToRepository:"", objective:"" , mainTechnology:"" , usedTechnologies:"", description:"" }
+]
+
 function Portfolio() {
   return (
     <div >

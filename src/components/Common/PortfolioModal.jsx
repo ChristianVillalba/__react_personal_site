@@ -19,14 +19,15 @@ function PortfolioModal(props) {
                     <i className="fas fa-times mr-1"></i>
                     Close Description
                   </button>
-                  <a className="btn btn-dark btn-modal mb-1" href={props.linkToProject} target="_blank">
+                  <a className="btn btn-dark btn-modal mb-1" href={props.linkToRepository} target="_blank">
                     <i className="fab fa-github mr-1"></i>
                     Code on GitHub
                   </a>
-                  <a className="btn btn-primary btn-modal mb-1" href={props.linkToRepository} target="_blank">
+                  {/* if hideButton is true, the content won't be diplayed */}
+                  {props.hideButton ? null : <a className="btn btn-primary btn-modal mb-1" href={props.linkToProject} target="_blank">
                     <i className="fas far fa-eye mr-1"></i>
                     Live Preview
-                  </a>
+                  </a>}
                   <br />
                   <br />
                   <ul className="list-inline">
