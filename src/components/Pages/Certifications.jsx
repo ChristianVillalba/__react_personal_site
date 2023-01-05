@@ -2,6 +2,75 @@ import React from "react";
 import {Link} from "react-router-dom";
 import Heading from "../Common/Heading";
 
+// import Subheading from "../Common/Subheading";
+// import SingleItem from "../Common/SingleItem";
+
+// const webDevCertificates = [
+//   {icon: "far fa-check-circle", listItem:"Enjoy collaborative problem solving activities."},
+//   {icon: "far fa-check-circle", listItem:"Love of interactive, customer-centric development."},
+//   {icon: "far fa-check-circle", listItem:"Comfortable operating in a rapidly changing environment."},
+//   {icon: "far fa-check-circle", listItem:"Passionate about new technologies."},
+// ]
+
+// const softwareDevCertificates = [
+//   {icon: "far fa-check-circle", listItem:"Enjoy collaborative problem solving activities."},
+//   {icon: "far fa-check-circle", listItem:"Love of interactive, customer-centric development."},
+//   {icon: "far fa-check-circle", listItem:"Comfortable operating in a rapidly changing environment."},
+//   {icon: "far fa-check-circle", listItem:"Passionate about new technologies."},
+// ]
+
+// const otherCertificates = [
+//   {icon: "far fa-check-circle", listItem:"Enjoy collaborative problem solving activities."},
+//   {icon: "far fa-check-circle", listItem:"Love of interactive, customer-centric development."},
+//   {icon: "far fa-check-circle", listItem:"Comfortable operating in a rapidly changing environment."},
+//   {icon: "far fa-check-circle", listItem:"Passionate about new technologies."},
+// ]
+
+
+
+
+// function Certifications() {
+//   return (
+//     <section className="resume-section" id="certifications">
+//     <div className="resume-section-content">
+//       <Heading title="Certifications" />
+
+//       <div className="d-flex flex-column flex-md-row justify-content-between mb-4">
+//         <div className="flex-grow-1">
+//         <Subheading subtitle="WEB DEVELOPMENT" />
+//         {/* Map function: renders wEB DEVELOPMENT CERTIFICATES */}
+//         {commonItems.map(( commonItem, index) => {
+//           return <SingleItem {...commonItem} key={index} />
+//         })}
+//         </div>
+//       </div>
+
+//       <div className="d-flex flex-column flex-md-row justify-content-between mb-4">
+//         <div className="flex-grow-1">
+//         <Subheading subtitle="SOFTWARE DEVELOPMENT" />
+//         {/* Map function: renders SOFTWARE DEVELOPMENT CERTIFICATES */}
+//         {commonItems.map(( commonItem, index) => {
+//           return <SingleItem {...commonItem} key={index} />
+//         })}
+//         </div>
+//       </div>
+
+//       <div className="d-flex flex-column flex-md-row justify-content-between mb-4">
+//         <div className="flex-grow-1">
+//         <Subheading subtitle="OTHERS" />
+//         {/* Map function: renders OTHER CERTIFICATES */}
+//         {commonItems.map(( commonItem, index) => {
+//           return <SingleItem {...commonItem} key={index} />
+//         })}
+//         </div>
+//       </div>
+
+//     </div>
+//   </section>
+//   );
+// }
+
+
 function Certifications() {
   return (
     <section className="resume-section" id="certifications">
