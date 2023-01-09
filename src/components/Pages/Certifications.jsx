@@ -77,6 +77,13 @@ function Certifications() {
     <div className="resume-section-content">
       <Heading title="Certifications" />
       <ul className="fa-ul mb-0">
+
+        <li>
+          <a href="https://www.udemy.com/certificate/UC-ea4f7723-aaeb-4190-9a91-819f22f0c677/" target="_blank">
+            <span className="fa-li"><i className="fas fa-award text-warning"></i></span>
+            The Complete Full-Stack JavaScript Course
+          </a>
+        </li>
         <li>
           <a href="https://www.udemy.com/certificate/UC-7a79f48f-b490-46b0-bc23-94d2e7c3e111/" target="_blank">
             <span className="fa-li"><i className="fas fa-award text-warning"></i></span>
@@ -102,7 +109,7 @@ function Certifications() {
           </a>
         </li>
         <li>
-          <a href="https://www.udemy.com/certificate/UC-353e0a8a-3f2d-4b75-8443-307e4a60f9f6/" target="_blank">
+          <a href="https://www.udemy.com/certificate/UC-7723e951-8d87-4585-9a5c-2f6ff4bbe3de/" target="_blank">
             <span className="fa-li"><i className="fas fa-award text-warning"></i></span>
             Python for OOP: The A-to-Z OOP Python Programming Course
           </a>
@@ -134,13 +141,13 @@ function Certifications() {
         </li>
 
         <li>
-          <a href="https://www.udemy.com/certificate/UC-7248e9db-045b-42d2-b3c6-d08e79df61bf/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email" target="_blank">
+          <a href="https://www.udemy.com/certificate/UC-7248e9db-045b-42d2-b3c6-d08e79df61bf/" target="_blank">
             <span className="fa-li"><i className="fas fa-award text-warning"></i></span>
             Complete Git and Github Beginner to Expert
           </a>
         </li>
         <li>
-          <a href="https://www.udemy.com/certificate/UC-aff237a2-f841-4c5a-9d05-74b834310815/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email" target="_blank">
+          <a href="https://www.udemy.com/certificate/UC-aff237a2-f841-4c5a-9d05-74b834310815/" target="_blank">
             <span className="fa-li"><i className="fas fa-award text-warning"></i></span>
             Cyber Security for Beginners Complete Course
           </a>
