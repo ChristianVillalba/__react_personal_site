@@ -1,6 +1,6 @@
 import React from "react";
 import About from "./About";
-import Certifications from "./Certifications";
+import Certificates from "./Certificates";
 import Interests from "./Interests";
 import Portfolio from "./Portfolio";
 import Skills from "./Skills";
@@ -11,7 +11,7 @@ function Home() {
       <About />
       <Skills />
       <Portfolio />
-      <Certifications />
+      <Certificates />
       <Interests />
     </div>
   );

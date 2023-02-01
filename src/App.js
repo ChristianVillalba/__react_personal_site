@@ -7,7 +7,7 @@ import Home from "./components/Pages/Home";
 import About from './components/Pages/About';
 import Skills from './components/Pages/Skills';
 import Portfolio from './components/Pages/Portfolio';
-import Certifications from "./components/Pages/Certifications";
+import Certificates from "./components/Pages/Certificates";
 import Interests from "./components/Pages/Interests";
 
 class App extends Component {
@@ -21,7 +21,7 @@ class App extends Component {
         <Route path="/about" element={<About />}></Route>
         <Route path="/skills" element={<Skills />}></Route>
         <Route path="/portfolio" element={<Portfolio />}></Route>
-        <Route path="/certifications" element={<Certifications />}></Route>
+        <Route path="/certificates" element={<Certificates />}></Route>
         <Route path="/interests" element={<Interests />}></Route>  
       </Routes>
         </div>

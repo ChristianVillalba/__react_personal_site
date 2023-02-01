@@ -29,11 +29,11 @@ import Heading from "../Common/Heading";
 
 
 
-// function Certifications() {
+// function Certificates() {
 //   return (
-//     <section className="resume-section" id="certifications">
+//     <section className="resume-section" id="certificates">
 //     <div className="resume-section-content">
-//       <Heading title="Certifications" />
+//       <Heading title="Certificates" />
 
 //       <div className="d-flex flex-column flex-md-row justify-content-between mb-4">
 //         <div className="flex-grow-1">
@@ -71,11 +71,11 @@ import Heading from "../Common/Heading";
 // }
 
 
-function Certifications() {
+function Certificates() {
   return (
-    <section className="resume-section" id="certifications">
+    <section className="resume-section" id="certificates">
     <div className="resume-section-content">
-      <Heading title="Certifications" />
+      <Heading title="Certificates" />
       <ul className="fa-ul mb-0">
 
         <li>
@@ -158,4 +158,4 @@ function Certifications() {
   );
 }
 
-export default Certifications;
+export default Certificates;

@@ -17,7 +17,7 @@ function Navbar() {
                     <li className="nav-item"><Link className="nav-link js-scroll-trigger" to="/about">About</Link></li>
                     <li className="nav-item"><Link className="nav-link js-scroll-trigger" to="/skills">Skills</Link></li>
                     <li className="nav-item"><Link className="nav-link js-scroll-trigger" to="/portfolio">Portfolio</Link></li>
-                    <li className="nav-item"><Link className="nav-link js-scroll-trigger" to="/certifications">Certifications</Link></li>
+                    <li className="nav-item"><Link className="nav-link js-scroll-trigger" to="/certificates">Certificates</Link></li>
                     <li className="nav-item"><Link className="nav-link js-scroll-trigger" to="/interests">Interests</Link></li>
                     
 
