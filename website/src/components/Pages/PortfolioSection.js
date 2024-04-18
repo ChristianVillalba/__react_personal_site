@@ -1,8 +1,8 @@
 import React from 'react';
 
+// Porfolio Grid
 const PortfolioSection = () => {
   return (
-        {/* Portfolio Grid*/}
     <section className="resume-section" id="portfolio">
       <div className="resume-section-content">
         <div className="container">
