@@ -9,15 +9,13 @@ import PortfolioSection from "./components/Pages/PortfolioSection";
 import CertificateSection from "./components/Pages/CertificateSection";
 import InterestsSection from "./components/Pages/InterestsSection";
 
-import AboutSection from "./components/Pages/AboutSection";
-
 function App() {
   return (
     <div>
       <Router>
         <Navbar></Navbar>
         <Routes>
-          <Route path="/" element={<Home />} />
+          {/* <Route path="/" element={<Home />} /> */}
           <Route path="about" element={<AboutSection />} />
           <Route path="skills" element={<SkillsSection />} />
           <Route path="portfolio" element={<PortfolioSection />} />

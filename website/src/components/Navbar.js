@@ -1,9 +1,13 @@
-import React from 'react';
+import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-      <a className="navbar-brand js-scroll-trigger" href="#page-top">
+    <nav
+      className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
+      id="sideNav"
+    >
+      <Link className="navbar-brand js-scroll-trigger" to="#page-top">
         <span className="d-block d-lg-none">Christian Villalba</span>
         <span className="d-none d-lg-block">
           <img
@@ -12,7 +16,7 @@ const Navbar = () => {
             alt="An icon of a programmer"
           />
         </span>
-      </a>
+      </Link>
       <button
         className="navbar-toggler"
         type="button"
@@ -27,19 +31,29 @@ const Navbar = () => {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="#about">About</a>
+            <Link className="nav-link js-scroll-trigger" to="/about">
+              About
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="#skills">Skills</a>
+            <Link className="nav-link js-scroll-trigger" to="/skills">
+              Skills
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            <Link className="nav-link js-scroll-trigger" to="/portfolio">
+              Portfolio
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="#certificates">Certificates</a>
+            <Link className="nav-link js-scroll-trigger" to="/certificates">
+              Certificates
+            </Link>
             <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="#interests">Interests</a>
-          </li>
+              <Link className="nav-link js-scroll-trigger" to="/interests">
+                Interests
+              </Link>
+            </li>
           </li>
         </ul>
       </div>
