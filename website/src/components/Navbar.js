@@ -7,7 +7,7 @@ const Navbar = () => {
       className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
       id="sideNav"
     >
-      <Link className="navbar-brand js-scroll-trigger" to="#page-top">
+      <Link className="navbar-brand js-scroll-trigger" to="/">
         <span className="d-block d-lg-none">Christian Villalba</span>
         <span className="d-none d-lg-block">
           <img
