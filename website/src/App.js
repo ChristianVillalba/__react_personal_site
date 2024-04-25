@@ -2,7 +2,7 @@ import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
-// Routes
+// Routes to Pages
 import AboutSection from "./components/Pages/AboutSection";
 import SkillsSection from "./components/Pages/SkillsSection";
 import PortfolioSection from "./components/Pages/PortfolioSection";
