@@ -1,38 +1,76 @@
 import React from 'react';
+import SkillsList from '../Common/SkillsList';
 
-const SkillsSection = () => {
+const SkillsPage = () => {
+  const technicalSkills = [
+    { icon: 'fa-python', name: 'Python' },
+    { icon: 'fa-python', name: 'Django' },
+    { icon: 'fa-js-square', name: 'JavaScript' },
+    { icon: 'fa-react', name: 'React' },
+    { icon: 'fa-node-js', name: 'Node' },
+    { icon: 'fa-js-square', name: 'Express' },
+    { icon: 'fa-js-square', name: 'jQuery' },
+    { icon: 'fas fa-database', name: 'PostgreSQL' },
+    { icon: 'fa-php', name: 'PHP' },
+    { icon: 'fa-bootstrap', name: 'Bootstrap' },
+    { icon: 'fa-css3-alt', name: 'CSS' },
+    { icon: 'fa-html5', name: 'HTML' },
+    { icon: 'fa-github', name: 'GitHub & Version Control' },
+  ];
+
+  const personalSkills = [
+    { icon: 'fa-check-circle', name: 'Enjoy collaborative problem solving activities.' },
+    { icon: 'fa-check-circle', name: 'Love of interactive, customer-centric development.' },
+    { icon: 'fa-check-circle', name: 'Comfortable operating in a rapidly changing environment.' },
+    { icon: 'fa-check-circle', name: 'Passionate about new technologies.' },
+    // Uncomment below line if needed
+    // { icon: 'fa-check-circle', name: 'Interest in Responsive Design, Mobile-First.' },
+  ];
+
   return (
-    <section className="resume-section" id="skills">
-      <div className="resume-section-content">
-        <h2 className="mb-4">Skills</h2>
-        <div className="d-flex flex-column flex-md-row justify-content-between mb-4">
-          <div className="flex-grow-1">
-            <h3 className="mb-0">TECHNICAL SKILLS</h3>
-            <div className="tech-skill"><i className="fab fa-python"></i> Python</div>
-            <div className="tech-skill"><i className="fab fa-python"></i> Django</div>
-            <div className="tech-skill"><i className="fab fa-js-square"></i> JavaScript</div>
-            <div className="tech-skill"><i className="fab fa-react"></i> React</div>
-            <div className="tech-skill"><i className="fab fa-node-js"></i> Node</div>
-            <div className="tech-skill"><i className="fab fa-js-square"></i> jQuery</div>
-            <div className="tech-skill"><i className="fab fa-bootstrap"></i> Bootstrap</div>
-            <div className="tech-skill"><i className="fab fa-css3-alt"></i> CSS</div>
-            <div className="tech-skill"><i className="fab fa-html5"></i> HTML</div>
-            <div className="tech-skill"><i className="fab fa-github"></i> GitHub & Version Control</div>
-          </div>
-        </div>
-        <div className="d-flex flex-column flex-md-row justify-content-between mb-4">
-          <div className="flex-grow-1">
-            <h3 className="mb-0">PERSONAL SKILLS</h3>
-            <div className="personal-skill"><i className="far fa-check-circle"></i> Enjoy collaborative problem solving activities.</div>
-            <div className="personal-skill"><i className="far fa-check-circle"></i> Love of interactive, customer-centric development.</div>
-            <div className="personal-skill"><i className="far fa-check-circle"></i> Comfortable operating in a rapidly changing environment.</div>
-            <div className="personal-skill"><i className="far fa-check-circle"></i> Passionate about new technologies.</div>
-            {/* <div className="personal-skill"><i className="far fa-check-circle"></i> Interest in Responsive Design, Mobile-First. </div> */}
-          </div>
+    // <div>
+    //   <SkillsList title="TECHNICAL SKILLS" skills={technicalSkills} />
+    //   <SkillsList title="PERSONAL SKILLS" skills={personalSkills} />
+    // </div>
+    // <section className="resume-section" id="skills">
+    //   <div className="resume-section-content">
+    //     <h2 className="mb-4">Skills</h2>
+    //     <SkillsList title="TECHNICAL SKILLS" skills={technicalSkills} />
+    //     <SkillsList title="PERSONAL SKILLS" skills={personalSkills} />
+
+    //   </div>
+    // </section>
+    <section class="resume-section" id="skills">
+    <div class="resume-section-content">
+      <h2 class="mb-4">Skills</h2>
+      <div class="d-flex flex-column flex-md-row justify-content-between mb-4">
+        <div class="flex-grow-1">
+          <h3 class="mb-0">TECHNICAL SKILLS</h3>
+          <div class="tech-skill"><i class="fab fa-python"></i> Python</div>
+          <div class="tech-skill"><i class="fab fa-python"></i> Django</div>
+          <div class="tech-skill"><i class="fab fab fa-js-square"></i> JavaScript</div>
+          <div class="tech-skill"><i class="fab fab fa-react"></i> React</div>
+          <div class="tech-skill"><i class="fab fab fa-node-js"></i> Node</div>
+          <div class="tech-skill"><i class="fab fab fa-js-square"></i> jQuery</div>
+          <div class="tech-skill"><i class="fab fa-bootstrap"></i> Bootstrap</div>
+          <div class="tech-skill"><i class="fab fa-css3-alt"></i> CSS</div>
+          <div class="tech-skill"><i class="fab fa-html5"></i> HTML</div>
+          <div class="tech-skill"><i class="fab fab fa-github"></i> GitHub & Version Control</div>
         </div>
       </div>
-    </section>
+      <div class="d-flex flex-column flex-md-row justify-content-between mb-4">
+        <div class="flex-grow-1">
+          <h3 class="mb-0">PERSONAL SKILLS</h3>
+          <div class="personal-skill"><i class="far fa-check-circle"></i> Enjoy collaborative problem solving activities.</div>
+          <div class="personal-skill"><i class="far fa-check-circle"></i> Love of interactive, customer-centric development.</div>
+          <div class="personal-skill"><i class="far fa-check-circle"></i> Comfortable operating in a rapidly changing environment.</div>
+          <div class="personal-skill"><i class="far fa-check-circle"></i> Passionate about new technologies.</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
   );
 };
 
-export default SkillsSection;
+export default SkillsPage;
