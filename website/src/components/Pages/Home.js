@@ -2,7 +2,7 @@ import React from "react";
 import AboutSection from "./AboutSection";
 import SkillsSection from "./SkillsSection";
 import PortfolioSection from "./PortfolioSection";
-import CertificateSection from "./CertificateSection";
+import CertificatesSection from "./CertificatesSection";
 import InterestsSection from "./InterestsSection";
 
 const Home = () => {
@@ -11,7 +11,7 @@ const Home = () => {
         <AboutSection />
         <SkillsSection />
         <PortfolioSection />
-        <CertificateSection />
+        <CertificatesSection />
         <InterestsSection/>
     </div>
   );

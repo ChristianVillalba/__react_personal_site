@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar";
 import AboutSection from "./components/Pages/AboutSection";
 import SkillsSection from "./components/Pages/SkillsSection";
 import PortfolioSection from "./components/Pages/PortfolioSection";
-import CertificateSection from "./components/Pages/CertificateSection";
+import CertificatesSection from "./components/Pages/CertificatesSection";
 import InterestsSection from "./components/Pages/InterestsSection";
 import Home from "./components/Pages/Home";
 
@@ -20,7 +20,7 @@ function App() {
           <Route path="/about" element={<AboutSection />} />
           <Route path="/skills" element={<SkillsSection />} />
           <Route path="/portfolio" element={<PortfolioSection />} />
-          <Route path="/certificates" element={<CertificateSection />} />
+          <Route path="/certificates" element={<CertificatesSection />} />
           <Route path="/interests" element={<InterestsSection />} />
         </Routes>
       </Router>
