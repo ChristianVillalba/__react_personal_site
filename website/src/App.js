@@ -9,12 +9,13 @@ import PortfolioSection from "./components/Pages/PortfolioSection";
 import CertificatesSection from "./components/Pages/CertificatesSection";
 import InterestsSection from "./components/Pages/InterestsSection";
 import Home from "./components/Pages/Home";
-
+import PortfolioModal from "./components/Common/PortfolioModal"
 function App() {
   return (
     <div>
       <Router>
         <Navbar></Navbar>
+        <PortfolioModal />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutSection />} />

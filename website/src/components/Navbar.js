@@ -6,6 +6,7 @@ const Navbar = () => {
     <nav
       className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
       id="sideNav"
+      style={{ backgroundImage: `url(assets/img/fractalClearBlueZ.jpg)` }}
     >
       <Link className="navbar-brand js-scroll-trigger" to="/">
         <span className="d-block d-lg-none">Christian Villalba</span>
