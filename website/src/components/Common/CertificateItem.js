@@ -9,8 +9,8 @@ const CertificateItem = (props) => {
         href={externalLink}
         target="_blank"
         rel="noreferrer">
-        <span class="fa-li">
-          <i class="fas fa-award text-warning"></i>
+        <span className="fa-li">
+          <i className="fas fa-award text-warning"></i>
         </span>
         {certificate}
       </a>

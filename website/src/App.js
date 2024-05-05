@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import AboutSection from "./components/Pages/AboutSection";
 import SkillsSection from "./components/Pages/SkillsSection";
 import PortfolioSection from "./components/Pages/PortfolioSection";
+import ExperienceSection from "./components/Pages/ExperienceSection";
 import CertificatesSection from "./components/Pages/CertificatesSection";
 import InterestsSection from "./components/Pages/InterestsSection";
 import Home from "./components/Pages/Home";
@@ -21,6 +22,7 @@ function App() {
           <Route path="/about" element={<AboutSection />} />
           <Route path="/skills" element={<SkillsSection />} />
           <Route path="/portfolio" element={<PortfolioSection />} />
+          <Route path="/experience" element={<ExperienceSection />} />
           <Route path="/certificates" element={<CertificatesSection />} />
           <Route path="/interests" element={<InterestsSection />} />
         </Routes>

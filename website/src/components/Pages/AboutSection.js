@@ -15,7 +15,7 @@ const AboutSection = () => {
           07491 691669
           {/* <!-- Cardiff , Wales · United Kingdom --> */}
         </div>
-        <p className="lead mb-5">
+        <p className="mb-5">
           Software Developer passionate about learning,
           <br /> and keeping up with new technologies.
           <br /> <br /> I enjoy using front-end technologies thinking of making the site
