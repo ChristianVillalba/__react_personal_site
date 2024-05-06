@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
 // Routes to Pages
-import AboutSection from "./components/Pages/AboutSection";
+import ProfileSection from "./components/Pages/ProfileSection";
 import SkillsSection from "./components/Pages/SkillsSection";
 import PortfolioSection from "./components/Pages/PortfolioSection";
 import ExperienceSection from "./components/Pages/ExperienceSection";
@@ -19,7 +19,7 @@ function App() {
         <PortfolioModal />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<AboutSection />} />
+          <Route path="/profile" element={<ProfileSection />} />
           <Route path="/skills" element={<SkillsSection />} />
           <Route path="/portfolio" element={<PortfolioSection />} />
           <Route path="/experience" element={<ExperienceSection />} />

@@ -1,5 +1,5 @@
 import React from "react";
-import AboutSection from "./AboutSection";
+import ProfileSection from "./ProfileSection";
 import SkillsSection from "./SkillsSection";
 import PortfolioSection from "./PortfolioSection";
 import ExperienceSection from "./ExperienceSection";
@@ -9,7 +9,7 @@ import InterestsSection from "./InterestsSection";
 const Home = () => {
   return (
     <div>
-        <AboutSection />
+        <ProfileSection />
         <SkillsSection />
         <PortfolioSection />
         <ExperienceSection />
