@@ -8,9 +8,19 @@ const ExperienceItem = (props) => {
       <div className="flex-grow-1">
         <h3 className="mb-0">{company}</h3>
         <div className="subheading mb-3">{jobTitle}</div>
-        <p>
-          {description}
-        </p>
+
+        <div className="flexbox">
+          <div className="row">
+            <div className="col-lg-10 col-md-12 col-sm-12">
+
+            <p>{description}</p>
+
+
+            </div>
+          </div>
+        </div>
+
+        
       </div>
       <div className="flex-shrink-0">
         <span className="text-primary">{period}</span>

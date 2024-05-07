@@ -3,21 +3,21 @@ export const workExperience = [
     company: "Foot Locker",
     jobTitle: "Sales Assistant",
     description:
-      "Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.",
+    "Collaborated in a team-focused environment, providing satisfying store experiences to diverse clients. Exceeded sales goals and accomplished business objectives by promoting and target products.",
     period: "Nov 2023 - Present",
   },
   {
     company: "Decathlon",
     jobTitle: "Duty Manager",
     description:
-      "Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.",
+      "Organized and managed all performances of the team members to improve efficiency and member morale, and effectively allocated tasks to keep operations running smoothly. Assisted customers to ensure that they had a positive experience in store",
     period: "Dec 2021 - Nov 2023",
   },
   {
     company: "Mitie",
     jobTitle: "Supervisor",
     description:
-      "Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.",
+    "Formulated periodic reports concerning such areas as work progress, budget, and scheduling for managers. Examined and inspected work progress, equipment, and work environment to verify safety and ensure that specifications were to standards",
     period: "Jun 2017 - Dec 2021",
   },
 ];

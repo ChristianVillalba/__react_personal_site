@@ -4,7 +4,7 @@ export const technicalSkills = [
     { icon: "fab fa-node-js", name: "Node" },
     { icon: "fab fa-js-square", name: "Express" },
     { icon: "fab fa-js-square", name: "jQuery" },
-    { icon: "fab fa-python", name: "Python" },
+    { icon: "fab fa-python", name: "Python"},
     { icon: "fab fa-python", name: "Django" },
     { icon: "fas fa-database", name: "PostgreSQL" },
     { icon: "fab fa-php", name: "PHP" },
