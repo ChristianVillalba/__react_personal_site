@@ -56,9 +56,6 @@ const Navbar = () => {
               Certificates
             </Link>
             <li className="nav-item">
-              <Link className="nav-link js-scroll-trigger" to="/interests">
-                Interests
-              </Link>
             </li>
           </li>
         </ul>

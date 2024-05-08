@@ -8,7 +8,6 @@ import SkillsSection from "./components/Pages/SkillsSection";
 import PortfolioSection from "./components/Pages/PortfolioSection";
 import ExperienceSection from "./components/Pages/ExperienceSection";
 import CertificatesSection from "./components/Pages/CertificatesSection";
-import InterestsSection from "./components/Pages/InterestsSection";
 import Home from "./components/Pages/Home";
 import PortfolioModal from "./components/Common/PortfolioModal"
 function App() {
@@ -24,7 +23,6 @@ function App() {
           <Route path="/portfolio" element={<PortfolioSection />} />
           <Route path="/experience" element={<ExperienceSection />} />
           <Route path="/certificates" element={<CertificatesSection />} />
-          <Route path="/interests" element={<InterestsSection />} />
         </Routes>
       </Router>
     </div>
