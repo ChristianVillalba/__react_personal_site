@@ -4,7 +4,6 @@ import SkillsSection from "./SkillsSection";
 import PortfolioSection from "./PortfolioSection";
 import ExperienceSection from "./ExperienceSection";
 import CertificatesSection from "./CertificatesSection";
-import InterestsSection from "./InterestsSection";
 
 const Home = () => {
   return (
@@ -14,7 +13,6 @@ const Home = () => {
         <PortfolioSection />
         <ExperienceSection />
         <CertificatesSection />
-        <InterestsSection />
     </div>
   );
 };

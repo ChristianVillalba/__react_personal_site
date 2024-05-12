@@ -40,7 +40,7 @@ const ProfileSection = () => {
           </a>
           <a
             className="social-icon"
-            href="mailto:christianvillalba.uk@xxxxx.com"
+            href="mailto:christianvillalba.uk@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
             data-toggle="tooltip"
