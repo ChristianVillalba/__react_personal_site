@@ -1,14 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
+  const [isNavCollapsed, setIsNavCollapsed] = useState(true);
+
+  const handleNavCollapse = () => {
+    setIsNavCollapsed(!isNavCollapsed);
+  };
+
+  const handleLinkClick = () => {
+    setIsNavCollapsed(true); // Collapse the navbar when a link is clicked
+  };
+
   return (
     <nav
       className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
       id="sideNav"
       style={{ backgroundImage: `url(assets/img/fractalClearBlueZ.jpg)` }}
     >
-      <Link className="navbar-brand js-scroll-trigger" to="/">
+      <Link className="navbar-brand js-scroll-trigger" to="/" onClick={handleLinkClick}>
         <span className="d-block d-lg-none">Christian Villalba</span>
         <span className="d-none d-lg-block">
           <img
@@ -21,42 +31,43 @@ const Navbar = () => {
       <button
         className="navbar-toggler"
         type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
+        onClick={handleNavCollapse}
         aria-controls="navbarSupportedContent"
-        aria-expanded="false"
+        aria-expanded={!isNavCollapsed}
         aria-label="Toggle navigation"
       >
         <span className="navbar-toggler-icon"></span>
       </button>
-      <div className="collapse navbar-collapse" id="navbarSupportedContent">
+      <div
+        className={`collapse navbar-collapse ${
+          isNavCollapsed ? "" : "show"
+        }`}
+      >
         <ul className="navbar-nav">
           <li className="nav-item">
-            <Link className="nav-link js-scroll-trigger" to="/profile">
+            <Link className="nav-link js-scroll-trigger" to="/profile" onClick={handleLinkClick}>
               Profile
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link js-scroll-trigger" to="/skills">
+            <Link className="nav-link js-scroll-trigger" to="/skills" onClick={handleLinkClick}>
               Skills
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link js-scroll-trigger" to="/portfolio">
+            <Link className="nav-link js-scroll-trigger" to="/portfolio" onClick={handleLinkClick}>
               Portfolio
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link js-scroll-trigger" to="/experience">
+            <Link className="nav-link js-scroll-trigger" to="/experience" onClick={handleLinkClick}>
               Experience
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link js-scroll-trigger" to="/certificates">
+            <Link className="nav-link js-scroll-trigger" to="/certificates" onClick={handleLinkClick}>
               Certificates
             </Link>
-            <li className="nav-item">
-            </li>
           </li>
         </ul>
       </div>
